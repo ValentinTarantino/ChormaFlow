@@ -1,0 +1,87 @@
+.Header {
+    position: fixed;
+    /* Lo fijamos en la parte superior */
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    z-index: 100;
+
+    background-color: rgba(31, 41, 55, 0.7);
+    /* --surface-dark con transparencia */
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+
+    border: 1px solid var(--border-dark);
+    border-radius: var(--radius);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.Header-content {
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-light-primary);
+    margin: 0;
+}
+
+.Header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Header-select {
+    font-family: var(--font-family);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-light-secondary);
+    padding: 0.6rem 2.5rem 0.6rem 1rem;
+    border-radius: 0.375rem;
+    /* Ligeramente menos redondo */
+    border: 1px solid var(--border-dark);
+    background-color: var(--bg-dark);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%239ca3af' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    background-size: 1.25em 1.25em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.Header-select:hover {
+    border-color: #4b5563;
+}
+
+.Header-select:focus {
+    outline: 2px solid var(--accent-glow);
+    outline-offset: 2px;
+    border-color: transparent;
+}
+
+.Header-generateButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--accent-glow);
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.375rem;
+    border: none;
+    cursor: pointer;
+}
+
+.Header-generateButton:hover {
+    background: var(--accent-hover);
+    box-shadow: var(--shadow-glow);
+}

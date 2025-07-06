@@ -1,0 +1,90 @@
+.Controls-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: var(--surface);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+}
+
+.Controls-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-right: 2rem;
+}
+
+.Controls-group {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-main);
+    border-radius: var(--radius);
+    padding: 0.25rem;
+    border: 1px solid var(--border);
+    margin-right: auto;
+}
+
+.Controls-harmonyButton {
+    font-family: var(--font-family);
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--text-secondary);
+}
+
+.Controls-harmonyButton.active {
+    background-color: var(--surface);
+    color: var(--text-primary);
+    box-shadow: var(--shadow);
+}
+
+.Controls-generateButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--accent);
+    color: white;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--radius);
+    border: none;
+    cursor: pointer;
+}
+
+.Controls-generateButton:hover {
+    background: var(--accent-hover);
+}
+
+/* MEDIA QUERY PARA RESPONSIVIDAD */
+@media (max-width: 992px) {
+    .Controls-panel {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .Controls-title {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .Controls-group {
+        justify-content: center;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .Controls-harmonyButton {
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        flex-grow: 1;
+    }
+}
