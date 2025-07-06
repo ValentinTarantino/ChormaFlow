@@ -3,12 +3,10 @@
     position: relative;
     overflow: hidden;
     transition: flex 0.4s cubic-bezier(0.22, 1, 0.36, 1);
-    /* Animación de expansión */
 }
 
 .ColorCard:hover {
     flex: 1.5;
-    /* Se expande al pasar el ratón */
 }
 
 .ColorCard-overlay {

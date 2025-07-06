@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* 2. Variables del Tema Oscuro (Dark Mode Premium) */
 :root {
   --font-family: 'Inter', sans-serif;
   --bg-main: #111827;
@@ -14,7 +13,6 @@
   --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
-/* 3. Estilos Base */
 body, html, #root {
   height: 100%;
   margin: 0;
@@ -29,7 +27,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* 4. Contenedores de la App */
 .app-container {
   display: flex;
   flex-direction: column;
@@ -43,7 +40,6 @@ body {
   overflow: hidden;
 }
 
-/* 5. MEDIA QUERY PARA RESPONSIVIDAD */
 @media (max-width: 768px) {
   .palette-container {
     flex-direction: column;

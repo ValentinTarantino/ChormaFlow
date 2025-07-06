@@ -1,8 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
-import useLocalStorage from './components/hooks/useLocalStorage.js';
 import * as colorUtils from './components/utils/colorUtils.js';
 import { v4 as uuidv4 } from 'uuid';
-import Header from './components/Header/Header.jsx';
 import Controls from './components/Controls/Controls.jsx';
 import ColorCard from './components/ColorCard/ColorCard.jsx';
 

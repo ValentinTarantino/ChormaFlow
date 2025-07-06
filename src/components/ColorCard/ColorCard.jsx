@@ -6,7 +6,6 @@ const ColorCard = ({ color, onToggleLock }) => {
 
     const handleCopy = (code) => {
         navigator.clipboard.writeText(code);
-        // Podrías añadir una notificación visual aquí
     };
 
     return (

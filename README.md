@@ -6,7 +6,7 @@
 
 <a name="english"></a>
 
-## 🇬🇧 English
+## English
 
 A sleek and modern color palette generator built with React and Vite. Discover, create, and interact with beautiful color harmonies in real-time.
 
@@ -45,7 +45,7 @@ This project was built using modern web technologies:
 
 <a name="español"></a>
 
-## 🇪🇸 Español
+## Español
 
 Un generador de paletas de colores moderno y elegante, construido con React. Descubre, crea e interactúa con hermosas armonías de color en tiempo real.
 
