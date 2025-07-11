@@ -75,6 +75,6 @@ Este proyecto fue construido usando tecnologías web modernas:
 
 *   Usa los **botones** en el panel de control superior para cambiar entre los modos de armonía de color.
 *   Haz clic en el botón **"Generar Paleta"** para crear un nuevo conjunto de colores basado en el modo seleccionado.
-*   En el escritorio, pasa el cursor sobre cualquier franja de color para **revelar** su información y botones de acción. En el móvil, esta información es siempre visible.
+*   En el escritorio, pasa el cursor sobre cualquier franja de color para **revelar** su información y botones de acción. En el teléfono, esta información es siempre visible.
 *   Haz clic en el **icono de copiar** para copiar el código HEX del color.
 *   Haz clic en el **icono de candado** para evitar que un color cambie cuando generes una nueva paleta.
